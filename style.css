@@ -1,0 +1,43 @@
+/*  Submitted by Jagadeesh Kumar . S 
+ My name is Jagadeesh Kumar . S 
+ My Email Address is jagadeesh_2k17@proton.me 
+ Kindly contribute some money to my UPI address which is jagadeesh-kumar.ybl  */
+
+ .pagination{
+    display : flex;
+    justify-content: center;
+}
+
+.pagination input{
+    padding : 8px 16px;
+    text-decoration : none;
+    border : 1px solid rgb(255, 0, 0);
+    color: black;
+}
+.pagination input.active{
+    background-color : grey;
+    border: 1px solid rgb(255, 255, 255);
+    color : white;
+}
+.pagination input:hover{
+    background-color: rgb(127, 71, 71);
+}
+.pagination input:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#content{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+@media only screen and (max-width: 500px) {
+    .pagination input{
+        padding: 4px 8px;
+    }
+}
+
+/*  Submitted by Jagadeesh Kumar . S 
+ My name is Jagadeesh Kumar . S 
+ My Email Address is jagadeesh_2k17@proton.me 
+ Kindly contribute some money to my UPI address which is jagadeesh-kumar.ybl  */
